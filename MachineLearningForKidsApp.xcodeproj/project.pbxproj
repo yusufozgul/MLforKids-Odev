@@ -3,19 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8818A013247C3F0E0096559C /* FindTomJerryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8818A012247C3F0D0096559C /* FindTomJerryVC.swift */; };
+		8822F83024697A0000CE790B /* ChameleonTrainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8822F82F24697A0000CE790B /* ChameleonTrainVC.swift */; };
+		8846F4EF246205D00070CAFA /* ShyPandaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8846F4EE246205D00070CAFA /* ShyPandaVC.swift */; };
+		8846F4F12462073B0070CAFA /* shyPandaVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8846F4F02462073B0070CAFA /* shyPandaVideo.mp4 */; };
+		885BE7CA2468A92E00C1705E /* Bukelemun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885BE7C92468A92E00C1705E /* Bukelemun.swift */; };
 		88CC586E2452F98000E39102 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CC586D2452F98000E39102 /* AppDelegate.swift */; };
 		88CC58702452F98000E39102 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CC586F2452F98000E39102 /* SceneDelegate.swift */; };
 		88CC58722452F98000E39102 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CC58712452F98000E39102 /* ViewController.swift */; };
 		88CC58752452F98000E39102 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88CC58732452F98000E39102 /* Main.storyboard */; };
 		88CC58772452F98200E39102 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88CC58762452F98200E39102 /* Assets.xcassets */; };
 		88CC587A2452F98200E39102 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88CC58782452F98200E39102 /* LaunchScreen.storyboard */; };
+		88CC58822452F9A700E39102 /* TitanicGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CC58812452F9A700E39102 /* TitanicGameVC.swift */; };
+		88CC58842452FA6A00E39102 /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CC58832452FA6A00E39102 /* VideoPlayer.swift */; };
+		88CC58882452FC9E00E39102 /* entryVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 88CC58872452FC9E00E39102 /* entryVideo.mp4 */; };
+		88CC588A2452FFB800E39102 /* TitanicGetInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88CC58892452FFB800E39102 /* TitanicGetInfoView.xib */; };
+		88CC588C2453228300E39102 /* TitanicGetInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CC588B2453228300E39102 /* TitanicGetInfoView.swift */; };
+		88CC588F2453276D00E39102 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 88CC588E2453276D00E39102 /* IQKeyboardManagerSwift */; };
+		88CC5898245328C100E39102 /* titanic_passenger2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 88CC5892245328B100E39102 /* titanic_passenger2.mp4 */; };
+		88CC5899245328C100E39102 /* titanic_passenger3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 88CC5893245328B200E39102 /* titanic_passenger3.mp4 */; };
+		88CC589A245328C100E39102 /* titanic_boarding.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 88CC5894245328B600E39102 /* titanic_boarding.mp4 */; };
+		88CC589B245328C100E39102 /* titanic_passenger1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 88CC5895245328B900E39102 /* titanic_passenger1.mp4 */; };
+		88CC589C245328C100E39102 /* titanic_end_scene.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 88CC5896245328C100E39102 /* titanic_end_scene.mp4 */; };
+		88CC589D245328C100E39102 /* titanic_loading.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 88CC5897245328C100E39102 /* titanic_loading.mp4 */; };
+		88CC589F24532CFB00E39102 /* titanic_background_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 88CC589E24532CFB00E39102 /* titanic_background_music.mp3 */; };
+		88CC58A224532EF400E39102 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = 88CC58A124532EF400E39102 /* Toast */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8818A012247C3F0D0096559C /* FindTomJerryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTomJerryVC.swift; sourceTree = "<group>"; };
+		8822F82F24697A0000CE790B /* ChameleonTrainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChameleonTrainVC.swift; sourceTree = "<group>"; };
+		8846F4EE246205D00070CAFA /* ShyPandaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShyPandaVC.swift; sourceTree = "<group>"; };
+		8846F4F02462073B0070CAFA /* shyPandaVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = shyPandaVideo.mp4; sourceTree = "<group>"; };
+		885BE7C92468A92E00C1705E /* Bukelemun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bukelemun.swift; sourceTree = "<group>"; };
 		88CC586A2452F98000E39102 /* MachineLearningForKidsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MachineLearningForKidsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88CC586D2452F98000E39102 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88CC586F2452F98000E39102 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +48,18 @@
 		88CC58762452F98200E39102 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88CC58792452F98200E39102 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88CC587B2452F98200E39102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88CC58812452F9A700E39102 /* TitanicGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitanicGameVC.swift; sourceTree = "<group>"; };
+		88CC58832452FA6A00E39102 /* VideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
+		88CC58872452FC9E00E39102 /* entryVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = entryVideo.mp4; sourceTree = "<group>"; };
+		88CC58892452FFB800E39102 /* TitanicGetInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitanicGetInfoView.xib; sourceTree = "<group>"; };
+		88CC588B2453228300E39102 /* TitanicGetInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitanicGetInfoView.swift; sourceTree = "<group>"; };
+		88CC5892245328B100E39102 /* titanic_passenger2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = titanic_passenger2.mp4; sourceTree = "<group>"; };
+		88CC5893245328B200E39102 /* titanic_passenger3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = titanic_passenger3.mp4; sourceTree = "<group>"; };
+		88CC5894245328B600E39102 /* titanic_boarding.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = titanic_boarding.mp4; sourceTree = "<group>"; };
+		88CC5895245328B900E39102 /* titanic_passenger1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = titanic_passenger1.mp4; sourceTree = "<group>"; };
+		88CC5896245328C100E39102 /* titanic_end_scene.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = titanic_end_scene.mp4; sourceTree = "<group>"; };
+		88CC5897245328C100E39102 /* titanic_loading.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = titanic_loading.mp4; sourceTree = "<group>"; };
+		88CC589E24532CFB00E39102 /* titanic_background_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = titanic_background_music.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88CC58A224532EF400E39102 /* Toast in Frameworks */,
+				88CC588F2453276D00E39102 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,8 +101,33 @@
 				88CC58762452F98200E39102 /* Assets.xcassets */,
 				88CC58782452F98200E39102 /* LaunchScreen.storyboard */,
 				88CC587B2452F98200E39102 /* Info.plist */,
+				88CC58812452F9A700E39102 /* TitanicGameVC.swift */,
+				88CC58832452FA6A00E39102 /* VideoPlayer.swift */,
+				88CC58912453289800E39102 /* Videos */,
+				88CC58892452FFB800E39102 /* TitanicGetInfoView.xib */,
+				88CC588B2453228300E39102 /* TitanicGetInfoView.swift */,
+				8846F4EE246205D00070CAFA /* ShyPandaVC.swift */,
+				885BE7C92468A92E00C1705E /* Bukelemun.swift */,
+				8822F82F24697A0000CE790B /* ChameleonTrainVC.swift */,
+				8818A012247C3F0D0096559C /* FindTomJerryVC.swift */,
 			);
 			path = MachineLearningForKidsApp;
+			sourceTree = "<group>";
+		};
+		88CC58912453289800E39102 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				88CC58872452FC9E00E39102 /* entryVideo.mp4 */,
+				88CC5894245328B600E39102 /* titanic_boarding.mp4 */,
+				88CC5896245328C100E39102 /* titanic_end_scene.mp4 */,
+				88CC5897245328C100E39102 /* titanic_loading.mp4 */,
+				88CC5895245328B900E39102 /* titanic_passenger1.mp4 */,
+				88CC5892245328B100E39102 /* titanic_passenger2.mp4 */,
+				88CC5893245328B200E39102 /* titanic_passenger3.mp4 */,
+				88CC589E24532CFB00E39102 /* titanic_background_music.mp3 */,
+				8846F4F02462073B0070CAFA /* shyPandaVideo.mp4 */,
+			);
+			path = Videos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +146,10 @@
 			dependencies = (
 			);
 			name = MachineLearningForKidsApp;
+			packageProductDependencies = (
+				88CC588E2453276D00E39102 /* IQKeyboardManagerSwift */,
+				88CC58A124532EF400E39102 /* Toast */,
+			);
 			productName = MachineLearningForKidsApp;
 			productReference = 88CC586A2452F98000E39102 /* MachineLearningForKidsApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +178,10 @@
 				Base,
 			);
 			mainGroup = 88CC58612452F97F00E39102;
+			packageReferences = (
+				88CC588D2453276D00E39102 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				88CC58A024532EF400E39102 /* XCRemoteSwiftPackageReference "Toast-Swift" */,
+			);
 			productRefGroup = 88CC586B2452F98000E39102 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +196,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88CC588A2452FFB800E39102 /* TitanicGetInfoView.xib in Resources */,
+				88CC589F24532CFB00E39102 /* titanic_background_music.mp3 in Resources */,
+				88CC589D245328C100E39102 /* titanic_loading.mp4 in Resources */,
 				88CC587A2452F98200E39102 /* LaunchScreen.storyboard in Resources */,
 				88CC58772452F98200E39102 /* Assets.xcassets in Resources */,
+				88CC589C245328C100E39102 /* titanic_end_scene.mp4 in Resources */,
+				88CC58882452FC9E00E39102 /* entryVideo.mp4 in Resources */,
+				88CC589A245328C100E39102 /* titanic_boarding.mp4 in Resources */,
+				8846F4F12462073B0070CAFA /* shyPandaVideo.mp4 in Resources */,
+				88CC5899245328C100E39102 /* titanic_passenger3.mp4 in Resources */,
+				88CC5898245328C100E39102 /* titanic_passenger2.mp4 in Resources */,
 				88CC58752452F98000E39102 /* Main.storyboard in Resources */,
+				88CC589B245328C100E39102 /* titanic_passenger1.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +219,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8846F4EF246205D00070CAFA /* ShyPandaVC.swift in Sources */,
 				88CC58722452F98000E39102 /* ViewController.swift in Sources */,
+				885BE7CA2468A92E00C1705E /* Bukelemun.swift in Sources */,
+				8822F83024697A0000CE790B /* ChameleonTrainVC.swift in Sources */,
+				88CC58842452FA6A00E39102 /* VideoPlayer.swift in Sources */,
+				88CC588C2453228300E39102 /* TitanicGetInfoView.swift in Sources */,
+				88CC58822452F9A700E39102 /* TitanicGameVC.swift in Sources */,
+				8818A013247C3F0E0096559C /* FindTomJerryVC.swift in Sources */,
 				88CC586E2452F98000E39102 /* AppDelegate.swift in Sources */,
 				88CC58702452F98000E39102 /* SceneDelegate.swift in Sources */,
 			);
@@ -338,6 +426,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		88CC588D2453276D00E39102 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.5;
+			};
+		};
+		88CC58A024532EF400E39102 /* XCRemoteSwiftPackageReference "Toast-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scalessec/Toast-Swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		88CC588E2453276D00E39102 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88CC588D2453276D00E39102 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		88CC58A124532EF400E39102 /* Toast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88CC58A024532EF400E39102 /* XCRemoteSwiftPackageReference "Toast-Swift" */;
+			productName = Toast;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 88CC58622452F97F00E39102 /* Project object */;
 }

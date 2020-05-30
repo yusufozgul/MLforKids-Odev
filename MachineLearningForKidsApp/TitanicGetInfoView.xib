@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TitanicGetInfoView" customModule="MachineLearningForKidsApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jka-b6-uhh">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <subviews>
+                        <view alpha="0.69999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nv6-63-2gI">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="513"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cinsiyetiniz Nedir" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fVN-gx-pWs">
+                            <rect key="frame" x="8" y="8" width="133" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="W61-NX-GDb">
+                            <rect key="frame" x="8" y="37" width="398" height="32"/>
+                            <segments>
+                                <segment title="Erkek"/>
+                                <segment title="Kadın"/>
+                            </segments>
+                        </segmentedControl>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kaç yaşındasınız" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5k2-b4-fja">
+                            <rect key="frame" x="8" y="84" width="126" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zst-Nc-gPJ">
+                            <rect key="frame" x="8" y="113" width="398" height="34"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                        </textField>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kaç çocuğunuz var" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t07-fT-WhR">
+                            <rect key="frame" x="8" y="163" width="146" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dFr-np-MBF">
+                            <rect key="frame" x="8" y="192" width="398" height="34"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                        </textField>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kaç ebevyniniz var" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l7y-O7-z5t">
+                            <rect key="frame" x="8" y="242" width="143" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uV0-ql-IhO">
+                            <rect key="frame" x="8" y="271" width="398" height="34"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                        </textField>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kaç eşiniz var" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SM4-sZ-YLc">
+                            <rect key="frame" x="8" y="321" width="105" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rK5-T1-IFt">
+                            <rect key="frame" x="8" y="350" width="398" height="34"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                        </textField>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kaç kardeşiniz var" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ax2-os-gQk">
+                            <rect key="frame" x="8" y="400" width="139" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7fF-xy-AB8">
+                            <rect key="frame" x="8" y="429" width="398" height="34"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iEg-CU-3BB">
+                            <rect key="frame" x="183" y="483" width="48" height="30"/>
+                            <state key="normal" title="Kaydet"/>
+                            <connections>
+                                <action selector="saveDate:" destination="iN0-l3-epB" eventType="touchUpInside" id="rna-T0-i4u"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="fVN-gx-pWs" firstAttribute="top" secondItem="Jka-b6-uhh" secondAttribute="top" constant="8" id="0Vy-Ei-4vI"/>
+                        <constraint firstItem="rK5-T1-IFt" firstAttribute="leading" secondItem="l9n-TX-elY" secondAttribute="leading" constant="8" id="1PM-jg-U2m"/>
+                        <constraint firstItem="7fF-xy-AB8" firstAttribute="leading" secondItem="l9n-TX-elY" secondAttribute="leading" constant="8" id="1Q8-Dr-MdM"/>
+                        <constraint firstItem="5k2-b4-fja" firstAttribute="top" secondItem="W61-NX-GDb" secondAttribute="bottom" constant="16" id="2BA-g5-oDS"/>
+                        <constraint firstItem="l9n-TX-elY" firstAttribute="trailing" secondItem="uV0-ql-IhO" secondAttribute="trailing" constant="8" id="4pK-qa-2Sd"/>
+                        <constraint firstItem="l9n-TX-elY" firstAttribute="trailing" secondItem="nv6-63-2gI" secondAttribute="trailing" id="7Zh-tU-DdM"/>
+                        <constraint firstItem="W61-NX-GDb" firstAttribute="leading" secondItem="zA4-3N-IGr" secondAttribute="leading" constant="8" id="8GO-0P-tIK"/>
+                        <constraint firstItem="fVN-gx-pWs" firstAttribute="top" secondItem="l9n-TX-elY" secondAttribute="top" constant="8" id="AOr-9o-eh0"/>
+                        <constraint firstItem="iEg-CU-3BB" firstAttribute="top" secondItem="7fF-xy-AB8" secondAttribute="bottom" constant="20" id="AWY-p2-czk"/>
+                        <constraint firstItem="7fF-xy-AB8" firstAttribute="top" secondItem="ax2-os-gQk" secondAttribute="bottom" constant="8" id="C3K-qx-7WB"/>
+                        <constraint firstItem="fVN-gx-pWs" firstAttribute="leading" secondItem="Jka-b6-uhh" secondAttribute="leading" constant="8" id="EZx-7g-4Xh"/>
+                        <constraint firstItem="l9n-TX-elY" firstAttribute="trailing" secondItem="7fF-xy-AB8" secondAttribute="trailing" constant="8" id="F0g-LB-soH"/>
+                        <constraint firstItem="5k2-b4-fja" firstAttribute="leading" secondItem="zA4-3N-IGr" secondAttribute="leading" constant="8" id="J2i-1V-PBQ"/>
+                        <constraint firstItem="Zst-Nc-gPJ" firstAttribute="leading" secondItem="zA4-3N-IGr" secondAttribute="leading" constant="8" id="Jia-kC-w6V"/>
+                        <constraint firstItem="nv6-63-2gI" firstAttribute="leading" secondItem="zA4-3N-IGr" secondAttribute="leading" id="Jnd-4O-Ga1"/>
+                        <constraint firstItem="l9n-TX-elY" firstAttribute="trailing" secondItem="W61-NX-GDb" secondAttribute="trailing" constant="8" id="K68-aN-LmY"/>
+                        <constraint firstItem="l9n-TX-elY" firstAttribute="trailing" secondItem="dFr-np-MBF" secondAttribute="trailing" constant="8" id="KCw-g6-765"/>
+                        <constraint firstItem="l7y-O7-z5t" firstAttribute="leading" secondItem="l9n-TX-elY" secondAttribute="leading" constant="8" id="LB8-6a-w45"/>
+                        <constraint firstItem="Zst-Nc-gPJ" firstAttribute="top" secondItem="5k2-b4-fja" secondAttribute="bottom" constant="8" id="OKq-Ns-Koy"/>
+                        <constraint firstItem="uV0-ql-IhO" firstAttribute="top" secondItem="l7y-O7-z5t" secondAttribute="bottom" constant="8" id="R6d-JG-rPZ"/>
+                        <constraint firstItem="iEg-CU-3BB" firstAttribute="centerX" secondItem="Jka-b6-uhh" secondAttribute="centerX" id="SXU-Yn-rBj"/>
+                        <constraint firstItem="nv6-63-2gI" firstAttribute="bottom" secondItem="iEg-CU-3BB" secondAttribute="bottom" id="UYf-mZ-ShQ"/>
+                        <constraint firstItem="fVN-gx-pWs" firstAttribute="leading" secondItem="l9n-TX-elY" secondAttribute="leading" constant="8" id="Z4D-wh-NKS"/>
+                        <constraint firstItem="l7y-O7-z5t" firstAttribute="top" secondItem="dFr-np-MBF" secondAttribute="bottom" constant="16" id="Zqj-Pb-jRh"/>
+                        <constraint firstItem="ax2-os-gQk" firstAttribute="leading" secondItem="l9n-TX-elY" secondAttribute="leading" constant="8" id="aNb-Xg-RZj"/>
+                        <constraint firstItem="uV0-ql-IhO" firstAttribute="leading" secondItem="l9n-TX-elY" secondAttribute="leading" constant="8" id="auY-qx-oti"/>
+                        <constraint firstItem="W61-NX-GDb" firstAttribute="top" secondItem="fVN-gx-pWs" secondAttribute="bottom" constant="8" id="c4c-AA-4JH"/>
+                        <constraint firstItem="dFr-np-MBF" firstAttribute="leading" secondItem="l9n-TX-elY" secondAttribute="leading" constant="8" id="eQg-1h-QJQ"/>
+                        <constraint firstAttribute="trailing" secondItem="fVN-gx-pWs" secondAttribute="trailing" id="hXO-6n-ytC"/>
+                        <constraint firstItem="ax2-os-gQk" firstAttribute="top" secondItem="rK5-T1-IFt" secondAttribute="bottom" constant="16" id="j7E-AR-rF0"/>
+                        <constraint firstItem="nv6-63-2gI" firstAttribute="top" secondItem="zA4-3N-IGr" secondAttribute="top" id="j9x-zz-lAB"/>
+                        <constraint firstItem="l9n-TX-elY" firstAttribute="trailing" secondItem="Zst-Nc-gPJ" secondAttribute="trailing" constant="8" id="mKp-6Q-LJ2"/>
+                        <constraint firstItem="rK5-T1-IFt" firstAttribute="top" secondItem="SM4-sZ-YLc" secondAttribute="bottom" constant="8" id="mZC-iv-wDI"/>
+                        <constraint firstItem="l9n-TX-elY" firstAttribute="trailing" secondItem="rK5-T1-IFt" secondAttribute="trailing" constant="8" id="qF8-vb-7pz"/>
+                        <constraint firstItem="t07-fT-WhR" firstAttribute="top" secondItem="Zst-Nc-gPJ" secondAttribute="bottom" constant="16" id="roa-sE-IvQ"/>
+                        <constraint firstItem="t07-fT-WhR" firstAttribute="leading" secondItem="l9n-TX-elY" secondAttribute="leading" constant="8" id="tkJ-GX-AYa"/>
+                        <constraint firstItem="SM4-sZ-YLc" firstAttribute="leading" secondItem="l9n-TX-elY" secondAttribute="leading" constant="8" id="uws-9M-FEl"/>
+                        <constraint firstItem="SM4-sZ-YLc" firstAttribute="top" secondItem="uV0-ql-IhO" secondAttribute="bottom" constant="16" id="uy2-Bx-boC"/>
+                        <constraint firstItem="dFr-np-MBF" firstAttribute="top" secondItem="t07-fT-WhR" secondAttribute="bottom" constant="8" id="xJt-NQ-hrr"/>
+                        <constraint firstAttribute="bottom" secondItem="7fF-xy-AB8" secondAttribute="bottom" constant="120" id="zQr-nD-XoT"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="zA4-3N-IGr"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="l9n-TX-elY"/>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Jka-b6-uhh" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="Ehe-r5-gjE"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Jka-b6-uhh" secondAttribute="trailing" id="fsm-ck-tSL"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Jka-b6-uhh" secondAttribute="bottom" id="jSu-6h-Qbk"/>
+                <constraint firstItem="Jka-b6-uhh" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="zpf-jp-mHs"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="ageTextField" destination="Zst-Nc-gPJ" id="gSz-c4-YkP"/>
+                <outlet property="childTextField" destination="dFr-np-MBF" id="wes-3S-hAV"/>
+                <outlet property="genderPicker" destination="W61-NX-GDb" id="yRk-gU-Q2F"/>
+                <outlet property="parentTextField" destination="uV0-ql-IhO" id="BxF-X2-Bqp"/>
+                <outlet property="partnerTextField" destination="rK5-T1-IFt" id="Qgp-xH-KLl"/>
+                <outlet property="siblingTextField" destination="7fF-xy-AB8" id="jvZ-oS-0gU"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="152.44565217391306"/>
+        </view>
+    </objects>
+</document>
