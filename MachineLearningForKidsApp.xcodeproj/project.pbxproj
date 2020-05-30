@@ -11,6 +11,7 @@
 		8822F83024697A0000CE790B /* ChameleonTrainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8822F82F24697A0000CE790B /* ChameleonTrainVC.swift */; };
 		8846F4EF246205D00070CAFA /* ShyPandaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8846F4EE246205D00070CAFA /* ShyPandaVC.swift */; };
 		8846F4F12462073B0070CAFA /* shyPandaVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8846F4F02462073B0070CAFA /* shyPandaVideo.mp4 */; };
+		885699BD2482C8E3008DCEEC /* SAConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885699BC2482C8E3008DCEEC /* SAConfettiView.swift */; };
 		885BE7CA2468A92E00C1705E /* Bukelemun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885BE7C92468A92E00C1705E /* Bukelemun.swift */; };
 		88CC586E2452F98000E39102 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CC586D2452F98000E39102 /* AppDelegate.swift */; };
 		88CC58702452F98000E39102 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CC586F2452F98000E39102 /* SceneDelegate.swift */; };
@@ -34,11 +35,25 @@
 		88CC58A224532EF400E39102 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = 88CC58A124532EF400E39102 /* Toast */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		885699BB2482C88A008DCEEC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		8818A012247C3F0D0096559C /* FindTomJerryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTomJerryVC.swift; sourceTree = "<group>"; };
 		8822F82F24697A0000CE790B /* ChameleonTrainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChameleonTrainVC.swift; sourceTree = "<group>"; };
 		8846F4EE246205D00070CAFA /* ShyPandaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShyPandaVC.swift; sourceTree = "<group>"; };
 		8846F4F02462073B0070CAFA /* shyPandaVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = shyPandaVideo.mp4; sourceTree = "<group>"; };
+		885699BC2482C8E3008DCEEC /* SAConfettiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAConfettiView.swift; sourceTree = "<group>"; };
 		885BE7C92468A92E00C1705E /* Bukelemun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bukelemun.swift; sourceTree = "<group>"; };
 		88CC586A2452F98000E39102 /* MachineLearningForKidsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MachineLearningForKidsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88CC586D2452F98000E39102 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -75,11 +90,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		885699B82482C889008DCEEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		88CC58612452F97F00E39102 = {
 			isa = PBXGroup;
 			children = (
 				88CC586C2452F98000E39102 /* MachineLearningForKidsApp */,
 				88CC586B2452F98000E39102 /* Products */,
+				885699B82482C889008DCEEC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +133,7 @@
 				885BE7C92468A92E00C1705E /* Bukelemun.swift */,
 				8822F82F24697A0000CE790B /* ChameleonTrainVC.swift */,
 				8818A012247C3F0D0096559C /* FindTomJerryVC.swift */,
+				885699BC2482C8E3008DCEEC /* SAConfettiView.swift */,
 			);
 			path = MachineLearningForKidsApp;
 			sourceTree = "<group>";
@@ -140,6 +164,7 @@
 				88CC58662452F98000E39102 /* Sources */,
 				88CC58672452F98000E39102 /* Frameworks */,
 				88CC58682452F98000E39102 /* Resources */,
+				885699BB2482C88A008DCEEC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -220,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8846F4EF246205D00070CAFA /* ShyPandaVC.swift in Sources */,
+				885699BD2482C8E3008DCEEC /* SAConfettiView.swift in Sources */,
 				88CC58722452F98000E39102 /* ViewController.swift in Sources */,
 				885BE7CA2468A92E00C1705E /* Bukelemun.swift in Sources */,
 				8822F83024697A0000CE790B /* ChameleonTrainVC.swift in Sources */,
