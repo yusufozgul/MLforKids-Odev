@@ -206,10 +206,49 @@ class TitanicGameVC: UIViewController {
         self.playVideo()
     }
     
-    
+    var passengerIsAlive: Bool = false
     @IBAction func startRoute(_ sender: Any) {
         self.currentState = .endScene
         self.playVideo()
+        
+        var urlString = "https://titanicpred.herokuapp.com/"
+        
+        urlString += String(infoData.passengerState)
+        urlString += "/"
+        urlString += String(infoData.gender)
+        urlString += "/"
+        urlString += String(infoData.age)
+        urlString += "/"
+        urlString += String(infoData.partnerCount)
+        urlString += "/"
+        urlString += String(infoData.childCount)
+        urlString += "/"
+        urlString += String(infoData.ticketFee)
+        urlString += "/"
+        
+        if portPicker.selectedSegmentIndex == 0 {
+            urlString += ""
+        } else if portPicker.selectedSegmentIndex == 1 {
+            urlString += ""
+        } else if portPicker.selectedSegmentIndex == 2 {
+            urlString += ""
+        }
+        urlString += "/"
+        
+        let url = URL(string: urlString)!
+
+        let task = URLSession.shared.dataTask(with: url) {(data, response, error) in
+            guard let data = data else { return }
+            
+            let result = try? JSONDecoder().decode(TitanicApiResponse.self, from: data)
+            if result?.result == "0" {
+                self.passengerIsAlive = false
+            } else {
+                self.passengerIsAlive = true
+            }
+        }
+
+        task.resume()
     }
     
 }
@@ -257,6 +296,12 @@ extension TitanicGameVC: PlayerPlaybackDelegate, PlayerDelegate {
             case .passengerSelect:
                 self.playVideo()
             case .endScene:
+                let alertController = UIAlertController(title: "Sonuç", message: self.passengerIsAlive ? "Hayatta kaldınız :)" : "Hayatta kalamadınız :(", preferredStyle: .alert)
+                let cancel = UIAlertAction(title: "Kapat", style: .cancel) { (_) in
+                    self.navigationController?.popViewController(animated: true)
+                }
+                alertController.addAction(cancel)
+                self.present(alertController, animated: true, completion: nil)
             break
         }
         
@@ -281,4 +326,9 @@ class TitanicInfoData {
     var ticketFee: Double = 0
     var passengerState: Int = 0
     
+}
+
+struct TitanicApiResponse: Codable {
+    
+    let result: String
 }

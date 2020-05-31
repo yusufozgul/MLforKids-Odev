@@ -12,7 +12,9 @@
 		8846F4EF246205D00070CAFA /* ShyPandaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8846F4EE246205D00070CAFA /* ShyPandaVC.swift */; };
 		8846F4F12462073B0070CAFA /* shyPandaVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8846F4F02462073B0070CAFA /* shyPandaVideo.mp4 */; };
 		885699BD2482C8E3008DCEEC /* SAConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885699BC2482C8E3008DCEEC /* SAConfettiView.swift */; };
+		885699BF2483EEA5008DCEEC /* MakeMeHappy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885699BE2483EEA5008DCEEC /* MakeMeHappy.swift */; };
 		885BE7CA2468A92E00C1705E /* Bukelemun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885BE7C92468A92E00C1705E /* Bukelemun.swift */; };
+		8887276824841B970018BC55 /* FaceLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8887276724841B970018BC55 /* FaceLock.swift */; };
 		88CC586E2452F98000E39102 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CC586D2452F98000E39102 /* AppDelegate.swift */; };
 		88CC58702452F98000E39102 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CC586F2452F98000E39102 /* SceneDelegate.swift */; };
 		88CC58722452F98000E39102 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CC58712452F98000E39102 /* ViewController.swift */; };
@@ -33,6 +35,8 @@
 		88CC589D245328C100E39102 /* titanic_loading.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 88CC5897245328C100E39102 /* titanic_loading.mp4 */; };
 		88CC589F24532CFB00E39102 /* titanic_background_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 88CC589E24532CFB00E39102 /* titanic_background_music.mp3 */; };
 		88CC58A224532EF400E39102 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = 88CC58A124532EF400E39102 /* Toast */; };
+		88DE17972483F28400ECE48C /* SchoolLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DE17962483F28400ECE48C /* SchoolLibrary.swift */; };
+		88DE1799248409EE00ECE48C /* CarorCup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DE1798248409EE00ECE48C /* CarorCup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -54,7 +58,9 @@
 		8846F4EE246205D00070CAFA /* ShyPandaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShyPandaVC.swift; sourceTree = "<group>"; };
 		8846F4F02462073B0070CAFA /* shyPandaVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = shyPandaVideo.mp4; sourceTree = "<group>"; };
 		885699BC2482C8E3008DCEEC /* SAConfettiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAConfettiView.swift; sourceTree = "<group>"; };
+		885699BE2483EEA5008DCEEC /* MakeMeHappy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeMeHappy.swift; sourceTree = "<group>"; };
 		885BE7C92468A92E00C1705E /* Bukelemun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bukelemun.swift; sourceTree = "<group>"; };
+		8887276724841B970018BC55 /* FaceLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceLock.swift; sourceTree = "<group>"; };
 		88CC586A2452F98000E39102 /* MachineLearningForKidsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MachineLearningForKidsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88CC586D2452F98000E39102 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88CC586F2452F98000E39102 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +81,8 @@
 		88CC5896245328C100E39102 /* titanic_end_scene.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = titanic_end_scene.mp4; sourceTree = "<group>"; };
 		88CC5897245328C100E39102 /* titanic_loading.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = titanic_loading.mp4; sourceTree = "<group>"; };
 		88CC589E24532CFB00E39102 /* titanic_background_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = titanic_background_music.mp3; sourceTree = "<group>"; };
+		88DE17962483F28400ECE48C /* SchoolLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolLibrary.swift; sourceTree = "<group>"; };
+		88DE1798248409EE00ECE48C /* CarorCup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarorCup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +142,10 @@
 				8822F82F24697A0000CE790B /* ChameleonTrainVC.swift */,
 				8818A012247C3F0D0096559C /* FindTomJerryVC.swift */,
 				885699BC2482C8E3008DCEEC /* SAConfettiView.swift */,
+				885699BE2483EEA5008DCEEC /* MakeMeHappy.swift */,
+				88DE17962483F28400ECE48C /* SchoolLibrary.swift */,
+				88DE1798248409EE00ECE48C /* CarorCup.swift */,
+				8887276724841B970018BC55 /* FaceLock.swift */,
 			);
 			path = MachineLearningForKidsApp;
 			sourceTree = "<group>";
@@ -248,12 +260,16 @@
 				885699BD2482C8E3008DCEEC /* SAConfettiView.swift in Sources */,
 				88CC58722452F98000E39102 /* ViewController.swift in Sources */,
 				885BE7CA2468A92E00C1705E /* Bukelemun.swift in Sources */,
+				88DE1799248409EE00ECE48C /* CarorCup.swift in Sources */,
 				8822F83024697A0000CE790B /* ChameleonTrainVC.swift in Sources */,
 				88CC58842452FA6A00E39102 /* VideoPlayer.swift in Sources */,
+				88DE17972483F28400ECE48C /* SchoolLibrary.swift in Sources */,
 				88CC588C2453228300E39102 /* TitanicGetInfoView.swift in Sources */,
+				8887276824841B970018BC55 /* FaceLock.swift in Sources */,
 				88CC58822452F9A700E39102 /* TitanicGameVC.swift in Sources */,
 				8818A013247C3F0E0096559C /* FindTomJerryVC.swift in Sources */,
 				88CC586E2452F98000E39102 /* AppDelegate.swift in Sources */,
+				885699BF2483EEA5008DCEEC /* MakeMeHappy.swift in Sources */,
 				88CC58702452F98000E39102 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
