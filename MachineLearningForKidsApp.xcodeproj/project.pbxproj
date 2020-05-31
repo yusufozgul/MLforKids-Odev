@@ -16,6 +16,7 @@
 		885BE7CA2468A92E00C1705E /* Bukelemun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885BE7C92468A92E00C1705E /* Bukelemun.swift */; };
 		8887276824841B970018BC55 /* FaceLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8887276724841B970018BC55 /* FaceLock.swift */; };
 		8887276A24844AC30018BC55 /* RockPaperScissors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8887276924844AC30018BC55 /* RockPaperScissors.swift */; };
+		88872772248456FD0018BC55 /* FacetoEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88872771248456FD0018BC55 /* FacetoEmoji.swift */; };
 		88CC586E2452F98000E39102 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CC586D2452F98000E39102 /* AppDelegate.swift */; };
 		88CC58702452F98000E39102 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CC586F2452F98000E39102 /* SceneDelegate.swift */; };
 		88CC58722452F98000E39102 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CC58712452F98000E39102 /* ViewController.swift */; };
@@ -63,6 +64,7 @@
 		885BE7C92468A92E00C1705E /* Bukelemun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bukelemun.swift; sourceTree = "<group>"; };
 		8887276724841B970018BC55 /* FaceLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceLock.swift; sourceTree = "<group>"; };
 		8887276924844AC30018BC55 /* RockPaperScissors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissors.swift; sourceTree = "<group>"; };
+		88872771248456FD0018BC55 /* FacetoEmoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacetoEmoji.swift; sourceTree = "<group>"; };
 		88CC586A2452F98000E39102 /* MachineLearningForKidsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MachineLearningForKidsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88CC586D2452F98000E39102 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88CC586F2452F98000E39102 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				88DE1798248409EE00ECE48C /* CarorCup.swift */,
 				8887276724841B970018BC55 /* FaceLock.swift */,
 				8887276924844AC30018BC55 /* RockPaperScissors.swift */,
+				88872771248456FD0018BC55 /* FacetoEmoji.swift */,
 			);
 			path = MachineLearningForKidsApp;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				8887276824841B970018BC55 /* FaceLock.swift in Sources */,
 				88CC58822452F9A700E39102 /* TitanicGameVC.swift in Sources */,
 				8818A013247C3F0E0096559C /* FindTomJerryVC.swift in Sources */,
+				88872772248456FD0018BC55 /* FacetoEmoji.swift in Sources */,
 				88CC586E2452F98000E39102 /* AppDelegate.swift in Sources */,
 				885699BF2483EEA5008DCEEC /* MakeMeHappy.swift in Sources */,
 				88CC58702452F98000E39102 /* SceneDelegate.swift in Sources */,

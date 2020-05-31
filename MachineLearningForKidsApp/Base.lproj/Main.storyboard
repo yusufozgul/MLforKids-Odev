@@ -7,6 +7,22 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Faceto Emoji-->
+        <scene sceneID="jc6-hG-gnn">
+            <objects>
+                <viewController id="dox-Jc-0k2" customClass="FacetoEmoji" customModule="MachineLearningForKidsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="768-6h-qp1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="deg-6I-ywF"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="WRI-Mo-TH2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zwj-dq-RbL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1062" y="-1282"/>
+        </scene>
         <!--Make Me Happy-->
         <scene sceneID="RJn-4Q-O7S">
             <objects>
@@ -1824,7 +1840,7 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="28t-s2-uB7">
                                                         <rect key="frame" x="0.0" y="0.0" width="207" height="151"/>
                                                         <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="card" translatesAutoresizingMaskIntoConstraints="NO" id="jRD-Bq-OrK">
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gulenYuz" translatesAutoresizingMaskIntoConstraints="NO" id="jRD-Bq-OrK">
                                                                 <rect key="frame" x="0.0" y="0.0" width="207" height="151"/>
                                                             </imageView>
                                                             <view alpha="0.55000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zqf-ES-2YF">
@@ -1834,14 +1850,17 @@
                                                                     <constraint firstAttribute="height" constant="20" id="BbL-P3-nuX"/>
                                                                 </constraints>
                                                             </view>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Snap" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CCg-d7-LwU">
-                                                                <rect key="frame" x="84" y="131" width="39" height="20.5"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Face to Emoji" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CCg-d7-LwU">
+                                                                <rect key="frame" x="52.5" y="131" width="102" height="20.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xvh-vr-UrK">
                                                                 <rect key="frame" x="0.0" y="0.0" width="207" height="151"/>
+                                                                <connections>
+                                                                    <segue destination="dox-Jc-0k2" kind="show" id="r1C-4q-xZu"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -3130,7 +3149,6 @@
         <image name="c8" width="300" height="300"/>
         <image name="c9" width="300" height="300"/>
         <image name="car-Cup" width="461" height="541"/>
-        <image name="card" width="225" height="225"/>
         <image name="cat" width="512" height="512"/>
         <image name="chameleon" width="259" height="194"/>
         <image name="cup1" width="300" height="300"/>
@@ -3144,6 +3162,7 @@
         <image name="cup8" width="300" height="300"/>
         <image name="cup9" width="300" height="300"/>
         <image name="facelock" width="512" height="512"/>
+        <image name="gulenYuz" width="320" height="320"/>
         <image name="happyface" width="225" height="225"/>
         <image name="k1" width="300" height="300"/>
         <image name="k10" width="300" height="300"/>
