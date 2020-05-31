@@ -1,2 +1,2 @@
 # MLforKids-Odev
-Machine Learning for Kids
+Çocuklar için makine öğrenimini benimseten mobil uygulama ödevi.
