@@ -1,4 +1,4 @@
-# Machine Learning For Kids
+# ML For Kids
 <h2>
   <div align="center"> Proje Bilgileri </div>
   </h2>
@@ -33,7 +33,9 @@
    </ul>
 </p>
   <br>
+  <p>Projemizin tam halini bu linkten indirebilirsiniz: https://devs.yusufozgul.com/MachineLearningForKids.zip
   
+</p>
    <h2>
    <div align="center"> Server </div>
   
