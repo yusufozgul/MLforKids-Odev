@@ -7,7 +7,7 @@
   <br>
   
    <ul>
-      <li>Proje mobil tarafta " Swift " ile geliştirilmiştir.</li>
+      <li>Proje mobil tarafında " Swift " ile geliştirilmiştir.</li>
       <li>Server tarafında ise " Flask " kullanılmıştır. </li>
 
    </ul>
@@ -18,7 +18,7 @@
    <div align="center"> Proje </div>
   
   </h2>
-  <p>Projemiz küçük yaşlardaki çocuklara çeşitli oyunlar ile makine öğrenimini sevdirmeyi ve onlarda öğrenme isteği uyandırmak için geliştirilmiştir. Projemizde 10 adet oyun bulunuyordur. Bu oyunlar train ve test kısımlarından oluşur. Çocuklara train ve test işlemi yaptırılarak sonuç alınır. Böylece çocuklar sürecin nasıl işlemiş olduğunu basit ve sade bir şekilde öğrenmeye başlamış olurlar. Bu Oyunlar;
+  <p>Projemiz küçük yaşlardaki çocuklara çeşitli oyunlar ile makine öğrenimini sevdirmeyi ve onlarda öğrenme isteği uyandırmak için geliştirilmiştir. Projemizde 10 adet oyun bulunmaktadır. Bu oyunlar Train ve Test kısımlarından oluşur. Çocuklara Train ve Test işlemi yaptırılarak sonuç alınır. Böylece çocuklar sürecin nasıl işlemiş olduğunu basit ve sade bir şekilde öğrenmeye başlamış olurlar. Bu Oyunlar;
    <ul>
       <li>Rock ,Paper, Scissors</li>
       <li>Make Me Happy</li>
