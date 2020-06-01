@@ -1,4 +1,4 @@
-# ML For Kids (Okul Projesi)
+# ML For Kids
 <h2>
   <div align="center"> Proje Bilgileri </div>
   </h2>
