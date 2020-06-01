@@ -13,6 +13,15 @@
    </ul>
     <br>
     <h4>Projede emeği geçenler:</h4>
+    <ul>
+      <li>Yusuf Özgül</li>
+      <li>İsmail Sefa Akdeniz</li>
+      <li>Kadir Can Karademir</li>
+      <li>Dorukan Eskiçeri</li>
+      <li>Mehmet Ayberk Çakar</li>
+      <li>İsmet Kizgin</li>
+      <li>İrem Çelikbilek</li>
+   </ul>
 
 
   <h2>
