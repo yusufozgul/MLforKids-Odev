@@ -1,4 +1,4 @@
-# ML For Kids
+# Machine Learning For Kids
 <h2>
   <div align="center"> Proje Bilgileri </div>
   </h2>
