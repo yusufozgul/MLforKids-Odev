@@ -9,6 +9,7 @@
    <ul>
       <li>Proje mobil tarafında " Swift " ile geliştirilmiştir.</li>
       <li>Server tarafında ise " Flask " kullanılmıştır. </li>
+      <li>Makine öğrenmesi tarafında ise " Sklearn Kütüphanesi" ve "TensorFlow" kullanılmıştır. </li>
 
    </ul>
     <br>
@@ -52,6 +53,12 @@
   </h2>
   <p> Uygulamada kullanmış olduğumuz server'ların dökümanları ve GitHub linkleri ;
    <ul>
+     <li>   
+        <h3>Rock Paper Scissors GitHub: </h3> <a href="https://github.com/SefaAkdeniz/TensorFlow-Rock-Paper-Scissors-Image-Processing-Using-Python">Rock Paper Scissors GitHub </a>
+      </li>
+     <li>   
+        <h3>Emoji Mask GitHub: </h3> <a href="https://github.com/SefaAkdeniz/OpenCV-Face-Replace-Emoji-with-Flask-Service">Emoji Mask GitHub </a>
+      </li>
       <li>   
         <h3>School Library GitHub: </h3> <a href="https://github.com/SefaAkdeniz/flask-app2">School Library GitHub </a>
       </li>
